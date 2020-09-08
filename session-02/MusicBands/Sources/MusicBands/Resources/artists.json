@@ -22,22 +22,6 @@
             ],
             "albums": [
                 {
-                    "name": "Sincericídio",
-                    "year": 2012,
-                    "tracks": [
-                        {
-                            "name": "O que realmente importa",
-                            "number": 8,
-                            "time": 232
-                        },
-                        {
-                            "name": "Fé e Honra",
-                            "number": 5,
-                            "time": 227
-                        }
-                    ]
-                },
-                {
                     "name": "Veni, Vidi, Vici!",
                     "year": 2016,
                     "tracks": [
@@ -60,6 +44,22 @@
                             "name": "Recompensa",
                             "number": 4,
                             "time": 206
+                        }
+                    ]
+                },
+                {
+                    "name": "Sincericídio",
+                    "year": 2012,
+                    "tracks": [
+                        {
+                            "name": "O que realmente importa",
+                            "number": 8,
+                            "time": 232
+                        },
+                        {
+                            "name": "Fé e Honra",
+                            "number": 5,
+                            "time": 227
                         }
                     ]
                 }
