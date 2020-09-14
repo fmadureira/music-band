@@ -9,8 +9,6 @@ func loadArtists() {
         for artist in artistsManager.artists.sorted() {
             print(artist.description)
         }
-    
-        print(dataManager)
     }
     catch {
         print(error)
