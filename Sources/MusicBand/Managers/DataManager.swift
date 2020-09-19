@@ -3,8 +3,6 @@ import Foundation
 final class DataManager {
     enum Error: Swift.Error {
         case fileNotFound
-        case filePathURLNotValid
-        case fileCorrupted
     }
 
     private let fileManager: FileManager

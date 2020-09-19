@@ -1,22 +1,26 @@
  {
-    "artists": [
+    "bands": [
         {
             "name": "Diabo Verde",
             "members": [
                 {
-                    "name": "Paulo Oliveira",
+                    "first_name": "Paulo",
+                    "last_name": "Oliveira",
                     "instrument": "vocals"
                 },
                 {
-                    "name": "Fellipe Madureira",
+                    "first_name": "Fellipe",
+                    "last_name": "Madureira",
                     "instrument": "guitar"
                 },
                 {
-                    "name": "Fabio Bolinha",
+                    "first_name": "Fabio",
+                    "last_name": "Bolinha",
                     "instrument": "bass"
                 },
                 {
-                    "name": "Leandro Nô",
+                    "first_name": "Leandro",
+                    "last_name": "Nô",
                     "instrument": "drums"
                 }
             ],
@@ -60,6 +64,32 @@
                             "name": "Fé e Honra",
                             "number": 5,
                             "time": 227
+                        }
+                    ]
+                },
+				{
+                    "name": "Losar EP",
+                    "year": 2020,
+                    "tracks": [
+                        {
+                            "name": "Finalmente Livre",
+                            "number": 4,
+                            "time": 182
+                        },
+                        {
+                            "name": "Sankalpa",
+                            "number": 2,
+                            "time": 219
+                        },
+                        {
+                            "name": "Karma",
+                            "number": 1,
+                            "time": 218
+                        },
+                        {
+                            "name": "A Alavanca",
+                            "number": 3,
+                            "time": 164
                         }
                     ]
                 }
