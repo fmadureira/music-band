@@ -1,5 +1,5 @@
 import Foundation
-
+//let fileName = "artists.json"
 func loadArtists() {
     let fileName = "artists.json"
 
@@ -10,13 +10,15 @@ func loadArtists() {
         for artist in artistsManager.artists.sorted() {
             print(artist.description)
         }
+        
+
     }
     catch let error as DataManager.Error {
         switch error {
             case .fileNotFound:
                 print("File not found: \(fileName)")
-            default:
-                print("Error: \(error.localizedDescription)")
+            //default:
+            //    print("Error: \(error.localizedDescription)")
         }
 
     }
@@ -24,5 +26,10 @@ func loadArtists() {
         print(error)
     }
 }
+
+/*func loadMembers() {
+
+}
+*/
 
 loadArtists()

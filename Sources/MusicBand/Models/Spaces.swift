@@ -5,4 +5,5 @@ enum Spaces: Int {
     case two   = 2
     case three = 3
     case four  = 4
+    
 }

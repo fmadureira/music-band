@@ -11,8 +11,14 @@ struct Artist: Codable, CustomStringConvertible, Comparable {
     var description: String {
         var description = "Artists"
         description += "\(.one)- \(name)"
+        description += "\(.two)- Members"
+
+        for member in members {
+            description += "\(member.description)"  
+        }
+
         description += "\(.two)- Albums"
-        
+
         for album in albums.sorted() {
             description += "\(.three)\(album.description)"
             
@@ -20,7 +26,7 @@ struct Artist: Codable, CustomStringConvertible, Comparable {
                 description += "\(.four)\(track.description)"
             }
         }
-        
+      
         description += .newLine
         
         return description
