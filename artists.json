@@ -1,100 +1,333 @@
- {
-    "bands": [
+{
+  "bands": [
+    {
+      "name": "Diabo Verde",
+      "members": [
         {
-            "name": "Diabo Verde",
-            "members": [
-                {
-                    "first_name": "Paulo",
-                    "last_name": "Oliveira",
-                    "instrument": "vocals"
-                },
-                {
-                    "first_name": "Fellipe",
-                    "last_name": "Madureira",
-                    "instrument": "guitar"
-                },
-                {
-                    "first_name": "Fabio",
-                    "last_name": "Bolinha",
-                    "instrument": "bass"
-                },
-                {
-                    "first_name": "Leandro",
-                    "last_name": "Nô",
-                    "instrument": "drums"
-                }
-            ],
-            "albums": [
-                {
-                    "name": "Veni, Vidi, Vici!",
-                    "year": 2016,
-                    "tracks": [
-                        {
-                            "name": "O Prisioneiro",
-                            "number": 7,
-                            "time": 238
-                        },
-                        {
-                            "name": "Golpe Baixo",
-                            "number": 9,
-                            "time": 145
-                        },
-                        {
-                            "name": "A Missão",
-                            "number": 10,
-                            "time": 187
-                        },
-                        {
-                            "name": "Recompensa",
-                            "number": 4,
-                            "time": 206
-                        }
-                    ]
-                },
-                {
-                    "name": "Sincericídio",
-                    "year": 2012,
-                    "tracks": [
-                        {
-                            "name": "O que realmente importa",
-                            "number": 8,
-                            "time": 232
-                        },
-                        {
-                            "name": "Fé e Honra",
-                            "number": 5,
-                            "time": 227
-                        }
-                    ]
-                },
-				{
-                    "name": "Losar EP",
-                    "year": 2020,
-                    "tracks": [
-                        {
-                            "name": "Finalmente Livre",
-                            "number": 4,
-                            "time": 182
-                        },
-                        {
-                            "name": "Sankalpa",
-                            "number": 2,
-                            "time": 219
-                        },
-                        {
-                            "name": "Karma",
-                            "number": 1,
-                            "time": 218
-                        },
-                        {
-                            "name": "A Alavanca",
-                            "number": 3,
-                            "time": 164
-                        }
-                    ]
-                }
-            ]
+          "first_name": "Paulo",
+          "last_name": "Oliveira",
+          "instrument": "vocals"
+        },
+        {
+          "first_name": "Fellipe",
+          "last_name": "Madureira",
+          "instrument": "guitar"
+        },
+        {
+          "first_name": "Fabio",
+          "last_name": "Bolinha",
+          "instrument": "bass"
+        },
+        {
+          "first_name": "Leandro",
+          "last_name": "Nô",
+          "instrument": "drums"
         }
-		
-    ]
+      ],
+      "albums": [
+        {
+          "name": "Veni, Vidi, Vici!",
+          "year": 2016,
+          "tracks": [
+            {
+              "name": "O Prisioneiro",
+              "number": 7,
+              "time": 238
+            },
+            {
+              "name": "Golpe Baixo",
+              "number": 9,
+              "time": 145
+            },
+            {
+              "name": "A Missão",
+              "number": 10,
+              "time": 187
+            },
+            {
+              "name": "Recompensa",
+              "number": 4,
+              "time": 206
+            },
+            {
+              "name": "Intro",
+              "number": 1,
+              "time": 238
+            },
+            {
+              "name": "Velhos Hábitos Nocivos",
+              "number": 8,
+              "time": 238
+            },
+            {
+              "name": "Nada é Impossível de Mudar",
+              "number": 5,
+              "time": 238
+            },
+            {
+              "name": "Senhor do Destino",
+              "number": 3,
+              "time": 238
+            },
+            {
+              "name": "O Mal Não Pode Triunfar",
+              "number": 4,
+              "time": 238
+            },
+            {
+              "name": "Ninguém Vai Nos Derrotar",
+              "number": 11,
+              "time": 238
+            },
+            {
+              "name": "Escravo da Liberdade",
+              "number": 2,
+              "time": 238
+            }
+          ]
+        },
+        {
+          "name": "Sincericídio",
+          "year": 2012,
+          "tracks": [
+            {
+              "name": "O que realmente importa",
+              "number": 8,
+              "time": 232
+            },
+            {
+              "name": "Fé e Honra",
+              "number": 5,
+              "time": 227
+            },
+            {
+              "name": "Fechadão Com o Certo",
+              "number": 1,
+              "time": 232
+            },
+            {
+              "name": "Vampiros",
+              "number": 7,
+              "time": 232
+            },
+            {
+              "name": "Saudades do Futuro",
+              "number": 2,
+              "time": 232
+            },
+            {
+              "name": "Escolhas",
+              "number": 6,
+              "time": 232
+            },
+            {
+              "name": "Diga Qual é o Seu Valor",
+              "number": 3,
+              "time": 232
+            },
+            {
+              "name": "Levantar e Lutar",
+              "number": 4,
+              "time": 232
+            }
+          ]
+        },
+        {
+          "name": "Losar EP",
+          "year": 2020,
+          "tracks": [
+            {
+              "name": "Finalmente Livre",
+              "number": 4,
+              "time": 182
+            },
+            {
+              "name": "Sankalpa",
+              "number": 2,
+              "time": 219
+            },
+            {
+              "name": "Karma",
+              "number": 1,
+              "time": 218
+            },
+            {
+              "name": "A Alavanca",
+              "number": 3,
+              "time": 164
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cabeçudos",
+      "members": [
+        {
+          "first_name": "Paulo",
+          "last_name": "Oliveira",
+          "instrument": "vocals"
+        },
+        {
+          "first_name": "Fellipe",
+          "last_name": "Madureira",
+          "instrument": "guitar"
+        },
+        {
+          "first_name": "Junior",
+          "last_name": "Vernin",
+          "instrument": "bass"
+        },
+        {
+          "first_name": "Zé",
+          "last_name": "Freitas",
+          "instrument": "guitar"
+        },
+        {
+          "first_name": "André",
+          "last_name": "Baba",
+          "instrument": "drums"
+        }
+      ],
+      "albums": [
+        {
+          "name": "Cabeçudoss",
+          "year": 2000,
+          "tracks": [
+            {
+              "name": "Cheretim",
+              "number": 1,
+              "time": 238
+            },
+            {
+              "name": "No Shape",
+              "number": 2,
+              "time": 145
+            },
+            {
+              "name": "De Front",
+              "number": 3,
+              "time": 187
+            },
+            {
+              "name": "PNC - Porrada na Cabeça",
+              "number": 13,
+              "time": 206
+            },
+            {
+              "name": "Sub-Rio (Volta Por Cima)",
+              "number": 11,
+              "time": 206
+            },
+            {
+              "name": "Lei do Cão",
+              "number": 4,
+              "time": 206
+            },
+            {
+              "name": "Samba de Bamba",
+              "number": 12,
+              "time": 206
+            },
+            {
+              "name": "Frevo Mulher",
+              "number": 9,
+              "time": 206
+            },
+            {
+              "name": "Bate Cabeça",
+              "number": 10,
+              "time": 206
+            },
+            {
+              "name": "Qual é Mané",
+              "number": 5,
+              "time": 206
+            },
+            {
+              "name": "Play",
+              "number": 7,
+              "time": 206
+            },
+            {
+              "name": "Não",
+              "number": 6,
+              "time": 206
+            },
+            {
+              "name": "Minha Mariazinha",
+              "number": 8,
+              "time": 206
+            }
+          ]
+        },
+        {
+          "name": "Siga ou Saia da Frente!",
+          "year": 2001,
+          "tracks": [
+            {
+              "name": "O Verme",
+              "number": 1,
+              "time": 232
+            },
+            {
+              "name": "Pela Última Lábia",
+              "number": 2,
+              "time": 227
+            },
+            {
+              "name": "Dor de Dente",
+              "number": 5,
+              "time": 227
+            },
+            {
+              "name": "Tempo pra Pensar",
+              "number": 8,
+              "time": 227
+            },
+            {
+              "name": "On Jack!",
+              "number": 10,
+              "time": 227
+            },
+            {
+              "name": "Pela Última Lábia (reprise - bonus track)",
+              "number": 12,
+              "time": 227
+            },
+            {
+              "name": "Drop Jump",
+              "number": 3,
+              "time": 227
+            },
+            {
+              "name": "Boca Seca",
+              "number": 11,
+              "time": 227
+            },
+            {
+              "name": "Tosco",
+              "number": 7,
+              "time": 227
+            },
+            {
+              "name": "Até as Bola",
+              "number": 4,
+              "time": 227
+            },
+            {
+              "name": "Falta de Ar",
+              "number": 6,
+              "time": 227
+            },
+            {
+              "name": "Fusões Afora",
+              "number": 9,
+              "time": 227
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
