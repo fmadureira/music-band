@@ -4,31 +4,38 @@ typealias Artists = [Artist]
 
 struct Artist: Codable, CustomStringConvertible, Comparable {
 
+    var id: String = UUID.newIdentifier
     let name: String
     let members: Members
     let albums: Albums
     
     var description: String {
-        var description = "Artists"
-        description += "\(.one)- \(name)"
-        description += "\(.two)- Members"
+        var description = String.empty
+        description += "\(.one, linebreak: false)- \(name) (\(id))"
 
-        for member in members {
-            description += "\(member.description)"  
-        }
+        if members.count > 0 { 
+            description += "\(.two)- Members"
 
-        description += "\(.two)- Albums"
-
-        for album in albums.sorted() {
-            description += "\(.three)\(album.description)"
-            
-            for track in album.tracks.sorted() {
-                description += "\(.four)\(track.description)"
+            for member in members {
+                description += "\(member.description)"  
             }
         }
-      
+
+        if albums.count > 0 {
+            description += "\(.two)- Albums"   
+
+            for album in albums.sorted() {
+                description += "\(.three)\(album.description)"
+            
+                if album.tracks.count > 0 {
+                    for track in album.tracks.sorted() {
+                        description += "\(.four)\(track.description)"
+                    }  
+                }
+            } 
+        }  
+
         description += .newLine
-        
         return description
     }
     

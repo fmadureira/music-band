@@ -7,11 +7,10 @@ func loadArtists() {
         let dataManager = try DataManager(file: fileName)
         let artistsManager = try ArtistsManager(dataManager: dataManager)
     
+        print("Artists")
         for artist in artistsManager.artists.sorted() {
             print(artist.description)
-        }
-        
-
+        }    
     }
     catch let error as DataManager.Error {
         switch error {

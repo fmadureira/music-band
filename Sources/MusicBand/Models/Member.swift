@@ -4,7 +4,6 @@ typealias Members = [Member]
 
 struct Member: Codable, CustomStringConvertible, Comparable {
     
-    let id = UUID()
     let firstName: String
     let lastName: String
     let instrument: Instrument
